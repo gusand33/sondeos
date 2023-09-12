@@ -76,26 +76,26 @@ La respuesta incluirá un token de acceso. Guárdalo y utilízalo para realizar 
 Una vez que tengas un token de acceso válido, puedes utilizarlo en las siguientes rutas de recursos de API:
 
 ## Listar Todos los Libros
-**Ruta:** GET /v1/books
-**Descripción:** Esta ruta devuelve una lista de todos los libros disponibles en la base de datos.
-**Uso:** Realiza una solicitud GET a la URL /v1/books y agrega el token de acceso como encabezado de **autorización** (Bearer Token).
+- **Ruta:** GET /v1/books
+- **Descripción:** Esta ruta devuelve una lista de todos los libros disponibles en la base de datos.
+- **Uso:** Realiza una solicitud GET a la URL /v1/books y agrega el token de acceso como encabezado de autorización (Bearer Token).
 
 ## Crear un Nuevo Libro
-**Ruta:** POST /v1/books
-**Descripción:** Utiliza esta ruta para agregar un nuevo libro a la base de datos.
-**Uso:** Realiza una solicitud POST a la URL /v1/books con los datos del nuevo libro en el cuerpo de la solicitud y agrega el token de acceso como encabezado de autorización (Bearer Token).
+- **Ruta:** POST /v1/books
+- **Descripción:** Utiliza esta ruta para agregar un nuevo libro a la base de datos.
+- **Uso:** Realiza una solicitud POST a la URL /v1/books con los datos del nuevo libro en el cuerpo de la solicitud y agrega el token de acceso como encabezado de autorización (Bearer Token).
 
 ## Mostrar los Detalles de un Libro
-**Ruta:** GET /v1/books/{id}
-**Descripción:** Recupera los detalles de un libro específico utilizando su identificador (ID).
-**Uso:** Realiza una solicitud GET a la URL /v1/books/{id} para obtener los detalles del libro con el ID proporcionado y agrega el token de acceso como encabezado de autorización (Bearer Token).
+- **Ruta:** GET /v1/books/{id}
+- **Descripción:** Recupera los detalles de un libro específico utilizando su identificador (ID).
+- **Uso:** Realiza una solicitud GET a la URL /v1/books/{id} para obtener los detalles del libro con el - ID proporcionado y agrega el token de acceso como encabezado de autorización (Bearer Token).
 
 ## Actualizar un Libro
-**Ruta:** PUT /v1/books/{id}
-**Descripción:** Utiliza esta ruta para actualizar la información de un libro existente.
-**Uso:** Realiza una solicitud PUT a la URL /v1/books/{id} con los datos actualizados en el cuerpo de la solicitud para modificar un libro específico y agrega el token de acceso como encabezado de autorización (Bearer Token).
+- **Ruta:** PUT /v1/books/{id}
+- **Descripción:** Utiliza esta ruta para actualizar la información de un libro existente.
+- **Uso:** Realiza una solicitud PUT a la URL /v1/books/{id} con los datos actualizados en el cuerpo de la solicitud para modificar un libro específico y agrega el token de acceso como encabezado de autorización (Bearer Token).
 
 ## Eliminar un Libro
-**Ruta:** DELETE /v1/books/{id}
-**Descripción:** Esta ruta permite eliminar un libro de la base de datos utilizando su identificador (ID).
-**Uso:** Realiza una solicitud DELETE a la URL /v1/books/{id} para eliminar el libro con el ID proporcionado y agrega el token de acceso como encabezado de autorización (Bearer Token).
+- **Ruta:** DELETE /v1/books/{id}
+- **Descripción:** Esta ruta permite eliminar un libro de la base de datos utilizando su identificador (ID).
+- **Uso:** Realiza una solicitud DELETE a la URL /v1/books/{id} para eliminar el libro con el ID proporcionado y agrega el token de acceso como encabezado de autorización (Bearer Token).
